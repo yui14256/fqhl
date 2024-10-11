@@ -37,7 +37,7 @@ def banner():
 
 # 主程序方法，进行调用
 def main():
-    parser = argparse.ArgumentParser(description='GRP-U8-UploadFile漏洞单批检测脚本@xhonger')
+    parser = argparse.ArgumentParser(description='GRP-U8-UploadFile漏洞单批检测脚本')
     parser.add_argument('-u','--url', type=str, help='单个漏洞网址')
     parser.add_argument('-f','--file', type=str, help='批量检测文本')
     args = parser.parse_args()
